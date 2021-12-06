@@ -61,6 +61,7 @@ export default function Home() {
                     <input
                         ref={searchInputRef}
                         type='text'
+                        defaultValue={router.query.term}
                         className='focus:outline-none flex-grow'
                     />
                     <MicrophoneIcon className='h-5 mr-3 text-gray-500' />
